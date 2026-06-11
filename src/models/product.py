@@ -28,7 +28,8 @@ class Product:
     @property
     def key(self) -> str:
         if self.url:
-            raw = f"{self.site}_{self.url}"
+            normalized = self.url.split("?")[0].rstrip("/")
+            raw = f"{self.site}_{normalized}"
         else:
             raw = f"{self.site}_{self.title}_{self.chip}_{self.ram_gb}_{self.storage_gb}"
         return hashlib.sha256(raw.encode()).hexdigest()[:16]

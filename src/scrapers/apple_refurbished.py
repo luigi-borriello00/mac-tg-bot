@@ -22,6 +22,9 @@ _PRO_URLS = [
 
 
 class AppleRefurbishedScraper(BaseScraper):
+    def __init__(self) -> None:
+        self._detail_cache: dict[str, tuple[int, int]] = {}
+
     @property
     def site_name(self) -> str:
         return "apple_refurbished"
@@ -94,9 +97,14 @@ class AppleRefurbishedScraper(BaseScraper):
     def _fetch_specs_from_detail_page(self, url: str) -> tuple[int, int]:
         if not url:
             return 0, 0
+        normalized = url.split("?")[0]
+        if normalized in self._detail_cache:
+            return self._detail_cache[normalized]
         try:
             html = self._fetch_page(url)
-            return self._parse_specs_from_html(html)
+            result = self._parse_specs_from_html(html)
+            self._detail_cache[normalized] = result
+            return result
         except Exception:
             logger.debug("Could not fetch detail page: %s", url)
             return 0, 0
