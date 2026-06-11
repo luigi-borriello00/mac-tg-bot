@@ -3,14 +3,14 @@ from src.scrapers.apple_refurbished import AppleRefurbishedScraper
 from src.scrapers.backmarket import BackMarketScraper
 from src.scrapers.base import BaseScraper
 from src.scrapers.imac_store import IMacStoreScraper
-from src.scrapers.swappie import SwappieScraper
+from src.scrapers.refurbed import RefurbedScraper
 
 ALL_SCRAPERS: list[type[BaseScraper]] = [
     AppleRefurbishedScraper,
     BackMarketScraper,
     AmazonScraper,
     IMacStoreScraper,
-    SwappieScraper,
+    RefurbedScraper,
 ]
 
 __all__ = [
@@ -20,5 +20,5 @@ __all__ = [
     "BackMarketScraper",
     "BaseScraper",
     "IMacStoreScraper",
-    "SwappieScraper",
+    "RefurbedScraper",
 ]

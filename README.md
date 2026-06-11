@@ -7,10 +7,10 @@ Bot Telegram che monitora giornalmente i prezzi di MacBook Air e Pro (M1+) dai p
 | Sito | Tipo | Stato |
 |------|------|-------|
 | Apple Refurbished Store | Ricondizionato | ✅ Stabile |
+| refurbed.it | Ricondizionato | ✅ Stabile |
 | Back Market | Ricondizionato | ⚠️ Dipende da anti-bot |
 | Amazon.it | Nuovo | ⚠️ Dipende da anti-bot |
 | iMac-Store | Ricondizionato | ⚠️ Dipende da disponibilità |
-| Swappie | Ricondizionato | ⚠️ Sezione Mac limitata |
 
 ## Setup
 
@@ -74,7 +74,7 @@ src/
 │   ├── backmarket.py          # Back Market
 │   ├── amazon.py              # Amazon.it
 │   ├── imac_store.py          # iMac-Store.it
-│   └── swappie.py             # Swappie
+│   └── refurbed.py            # refurbed.it
 ├── filters/filters.py         # Engine filtri componibili
 ├── notifications/telegram.py  # Notifiche Telegram
 ├── storage/json_storage.py    # Persistenza stato
