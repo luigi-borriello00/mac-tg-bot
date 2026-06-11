@@ -20,6 +20,8 @@ _PRO_URLS = [
     "https://www.apple.com/it/shop/refurbished/mac/macbook-pro?page=2",
 ]
 
+_UNIT_MULTIPLIERS = {"tb": 1024, "gb": 1, "mb": 1}
+
 
 class AppleRefurbishedScraper(BaseScraper):
     @property
@@ -32,11 +34,15 @@ class AppleRefurbishedScraper(BaseScraper):
 
     def scrape(self) -> list[Product]:
         logger.info("Scraping %s...", self.site_name)
+        seen_keys: set[str] = set()
         products: list[Product] = []
         for url in _AIR_URLS + _PRO_URLS:
             try:
                 html = self._fetch_page(url)
-                products.extend(self._parse_products(html))
+                for product in self._parse_products(html):
+                    if product.key not in seen_keys:
+                        seen_keys.add(product.key)
+                        products.append(product)
             except Exception:
                 logger.exception("Error scraping %s page %s", self.site_name, url)
         logger.info("Found %d products on %s", len(products), self.site_name)
@@ -73,8 +79,8 @@ class AppleRefurbishedScraper(BaseScraper):
             storage_gb = 0
             if i < len(product_dims):
                 dims = product_dims[i].get("dimensions", {})
-                ram_gb = self._parse_size_gb(dims.get("tsMemorySize", ""))
-                storage_gb = self._parse_size_gb(dims.get("dimensionCapacity", ""))
+                ram_gb = self._parse_size_with_unit(dims.get("tsMemorySize", ""))
+                storage_gb = self._parse_size_with_unit(dims.get("dimensionCapacity", ""))
 
             url_path = tile.get("productDetailsUrl", "")
             url = f"https://www.apple.com{url_path}" if url_path else ""
@@ -164,14 +170,17 @@ class AppleRefurbishedScraper(BaseScraper):
         return match.group(1).strip() if match else ""
 
     @staticmethod
-    def _parse_size_gb(raw: str) -> int:
+    def _parse_size_with_unit(raw: str) -> int:
         if not raw:
             return 0
-        cleaned = re.sub(r"[^\d]", "", raw)
-        try:
+        match = re.match(r"(\d+(?:[.,]\d+)?)\s*(tb|gb|mb)", raw.strip(), re.IGNORECASE)
+        if not match:
+            cleaned = re.sub(r"[^\d]", "", raw)
             return int(cleaned) if cleaned else 0
-        except ValueError:
-            return 0
+        value = float(match.group(1).replace(",", "."))
+        unit = match.group(2).lower()
+        multiplier = _UNIT_MULTIPLIERS.get(unit, 1)
+        return int(value * multiplier)
 
     @staticmethod
     def _parse_price(text: str) -> float:

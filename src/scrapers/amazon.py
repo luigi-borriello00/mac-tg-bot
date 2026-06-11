@@ -15,6 +15,15 @@ _URLS = [
     "https://www.amazon.it/s?k=macbook+pro+M1+M2+M3+M4&rh=n%3A425916031",
 ]
 
+_MIN_MACBOOK_PRICE = 200.0
+
+_EXCLUDE_KEYWORDS = {
+    "custodia", "cover", "case", "caricatore", "charger", "adattatore",
+    "adapter", "cavo", "cable", "mouse", "tastiera", "keyboard", "trackpad",
+    "stand", "supporto", "hub", "dock", "protettiva", "pellicola",
+    "tempered", "zaino", "bag", "sleeve", "borsa", "hard case",
+}
+
 
 class AmazonScraper(BaseScraper):
     @property
@@ -57,6 +66,8 @@ class AmazonScraper(BaseScraper):
             title = title_tag.get_text(strip=True)
             if not self._is_macbook(title):
                 continue
+            if self._is_accessory(title):
+                continue
 
             category = self._detect_category(title)
             chip = self._extract_chip(title)
@@ -64,7 +75,7 @@ class AmazonScraper(BaseScraper):
                 continue
 
             price = self._parse_price(price_tag.get_text(strip=True))
-            if price <= 0:
+            if price < _MIN_MACBOOK_PRICE:
                 continue
 
             url = ""
@@ -90,6 +101,11 @@ class AmazonScraper(BaseScraper):
     def _is_macbook(title: str) -> bool:
         lower = title.lower()
         return "macbook" in lower
+
+    @staticmethod
+    def _is_accessory(title: str) -> bool:
+        lower = title.lower()
+        return any(kw in lower for kw in _EXCLUDE_KEYWORDS)
 
     @staticmethod
     def _detect_category(title: str) -> Category:
