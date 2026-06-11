@@ -3,10 +3,14 @@ from __future__ import annotations
 import codecs
 import json
 import logging
+import random
 import re
+import time
 
+import httpx
 from bs4 import BeautifulSoup
 
+from src.config import REQUEST_TIMEOUT_SECONDS, SCRAPER_DELAY_SECONDS, USER_AGENT_POOL
 from src.models.product import Category, Product
 from src.scrapers.base import BaseScraper
 
@@ -14,8 +18,11 @@ logger = logging.getLogger(__name__)
 
 _URLS = [
     "https://www.refurbed.it/c/macbook/",
-    "https://www.refurbed.it/c/macbook/?page=2&sort=popular",
 ]
+
+
+def _minimal_headers() -> dict[str, str]:
+    return {"User-Agent": random.choice(USER_AGENT_POOL)}
 
 
 class RefurbedScraper(BaseScraper):
@@ -27,21 +34,25 @@ class RefurbedScraper(BaseScraper):
     def base_url(self) -> str:
         return _URLS[0]
 
+    def _fetch_page(self, url: str) -> str:
+        time.sleep(SCRAPER_DELAY_SECONDS)
+        with httpx.Client(
+            timeout=REQUEST_TIMEOUT_SECONDS, follow_redirects=True
+        ) as client:
+            response = client.get(url, headers=_minimal_headers())
+            response.raise_for_status()
+            return response.text
+
     def scrape(self) -> list[Product]:
         logger.info("Scraping %s...", self.site_name)
-        products: list[Product] = []
-        seen_keys: set[str] = set()
-        for url in _URLS:
-            try:
-                html = self._fetch_page(url)
-                for product in self._parse_products(html):
-                    if product.key not in seen_keys:
-                        seen_keys.add(product.key)
-                        products.append(product)
-            except Exception:
-                logger.warning("Could not scrape %s", url)
-        logger.info("Found %d products on %s", len(products), self.site_name)
-        return products
+        try:
+            html = self._fetch_page(self.base_url)
+            products = self._parse_products(html)
+            logger.info("Found %d products on %s", len(products), self.site_name)
+            return products
+        except Exception:
+            logger.exception("Error scraping %s", self.site_name)
+            return []
 
     def _parse_products(self, html: str) -> list[Product]:
         gadata_items = self._extract_gadata(html)
