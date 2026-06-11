@@ -27,7 +27,10 @@ class Product:
 
     @property
     def key(self) -> str:
-        raw = f"{self.site}_{self.title}_{self.chip}_{self.ram_gb}_{self.storage_gb}"
+        if self.url:
+            raw = f"{self.site}_{self.url}"
+        else:
+            raw = f"{self.site}_{self.title}_{self.chip}_{self.ram_gb}_{self.storage_gb}"
         return hashlib.sha256(raw.encode()).hexdigest()[:16]
 
     def to_dict(self) -> dict:

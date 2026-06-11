@@ -20,8 +20,6 @@ _PRO_URLS = [
     "https://www.apple.com/it/shop/refurbished/mac/macbook-pro?page=2",
 ]
 
-_UNIT_MULTIPLIERS = {"tb": 1024, "gb": 1, "mb": 1}
-
 
 class AppleRefurbishedScraper(BaseScraper):
     @property
@@ -55,9 +53,8 @@ class AppleRefurbishedScraper(BaseScraper):
 
         products: list[Product] = []
         tiles = bootstrap.get("tiles", [])
-        product_dims = bootstrap.get("products", [])
 
-        for i, tile in enumerate(tiles):
+        for tile in tiles:
             title = tile.get("title", "")
             if not self._is_macbook(title):
                 continue
@@ -75,15 +72,10 @@ class AppleRefurbishedScraper(BaseScraper):
             if price <= 0:
                 continue
 
-            ram_gb = 0
-            storage_gb = 0
-            if i < len(product_dims):
-                dims = product_dims[i].get("dimensions", {})
-                ram_gb = self._parse_size_with_unit(dims.get("tsMemorySize", ""))
-                storage_gb = self._parse_size_with_unit(dims.get("dimensionCapacity", ""))
-
             url_path = tile.get("productDetailsUrl", "")
             url = f"https://www.apple.com{url_path}" if url_path else ""
+
+            ram_gb, storage_gb = self._fetch_specs_from_detail_page(url)
 
             products.append(Product(
                 site=self.site_name,
@@ -98,6 +90,47 @@ class AppleRefurbishedScraper(BaseScraper):
             ))
 
         return products
+
+    def _fetch_specs_from_detail_page(self, url: str) -> tuple[int, int]:
+        if not url:
+            return 0, 0
+        try:
+            html = self._fetch_page(url)
+            return self._parse_specs_from_html(html)
+        except Exception:
+            logger.debug("Could not fetch detail page: %s", url)
+            return 0, 0
+
+    @staticmethod
+    def _parse_specs_from_html(html: str) -> tuple[int, int]:
+        ram_patterns = [
+            r"(\d+)\s*GB\s*di\s*memoria",
+            r"Memoria\s*unificata\s*da\s*(\d+)\s*GB",
+            r"(\d+)\s*GB\s*di\s*Memoria\s*unificata",
+        ]
+        storage_patterns = [
+            r"SSD\s*da\s*(\d+)\s*(TB|GB)",
+            r"(\d+)\s*(TB|GB)\s*SSD",
+            r"Unità\s*SSD\s*da\s*(\d+)\s*(TB|GB)",
+        ]
+
+        ram_gb = 0
+        for pattern in ram_patterns:
+            match = re.search(pattern, html, re.IGNORECASE)
+            if match:
+                ram_gb = int(match.group(1))
+                break
+
+        storage_gb = 0
+        for pattern in storage_patterns:
+            match = re.search(pattern, html, re.IGNORECASE)
+            if match:
+                value = int(match.group(1))
+                unit = match.group(2).upper()
+                storage_gb = value * 1024 if unit == "TB" else value
+                break
+
+        return ram_gb, storage_gb
 
     def _parse_no_js_fallback(self, html: str) -> list[Product]:
         soup = BeautifulSoup(html, "lxml")
@@ -126,13 +159,15 @@ class AppleRefurbishedScraper(BaseScraper):
             url_path = link_tag.get("href", "")
             url = f"https://www.apple.com{url_path}" if url_path else ""
 
+            ram_gb, storage_gb = self._fetch_specs_from_detail_page(url)
+
             products.append(Product(
                 site=self.site_name,
                 category=category,
                 title=title,
                 chip=chip,
-                ram_gb=0,
-                storage_gb=0,
+                ram_gb=ram_gb,
+                storage_gb=storage_gb,
                 price=price,
                 url=url,
                 condition="refurbished",
@@ -168,19 +203,6 @@ class AppleRefurbishedScraper(BaseScraper):
         pattern = r"(M[1-4](?:\s+(?:Pro|Max|Ultra))?)"
         match = re.search(pattern, title, re.IGNORECASE)
         return match.group(1).strip() if match else ""
-
-    @staticmethod
-    def _parse_size_with_unit(raw: str) -> int:
-        if not raw:
-            return 0
-        match = re.match(r"(\d+(?:[.,]\d+)?)\s*(tb|gb|mb)", raw.strip(), re.IGNORECASE)
-        if not match:
-            cleaned = re.sub(r"[^\d]", "", raw)
-            return int(cleaned) if cleaned else 0
-        value = float(match.group(1).replace(",", "."))
-        unit = match.group(2).lower()
-        multiplier = _UNIT_MULTIPLIERS.get(unit, 1)
-        return int(value * multiplier)
 
     @staticmethod
     def _parse_price(text: str) -> float:
