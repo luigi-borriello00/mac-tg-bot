@@ -1,16 +1,13 @@
 # Mac Price Monitor Bot
 
-Bot Telegram che monitora giornalmente i prezzi di MacBook Air e Pro (M1+) dai principali siti di ricondizionati e nuovi.
+Bot Telegram che monitora i prezzi di MacBook Air e Pro (M1+) dai principali siti di ricondizionati, con notifiche per nuovi prodotti e variazioni di prezzo.
 
 ## Siti Monitorati
 
-| Sito | Tipo | Stato |
-|------|------|-------|
-| Apple Refurbished Store | Ricondizionato | ✅ Stabile |
-| refurbed.it | Ricondizionato | ✅ Stabile |
-| Back Market | Ricondizionato | ⚠️ Dipende da anti-bot |
-| Amazon.it | Nuovo | ⚠️ Dipende da anti-bot |
-| iMac-Store | Ricondizionato | ⚠️ Dipende da disponibilità |
+| Sito | Tipo | Metodo |
+|------|------|--------|
+| Apple Refurbished Store | Ricondizionato | JSON embedded (server-side) |
+| refurbed.it | Ricondizionato | GAData JSON (server-side) |
 
 ## Setup
 
@@ -71,9 +68,6 @@ src/
 ├── scrapers/                  # Scraper per ogni sito
 │   ├── base.py                # Classe base astratta
 │   ├── apple_refurbished.py   # Apple Refurbished Store
-│   ├── backmarket.py          # Back Market
-│   ├── amazon.py              # Amazon.it
-│   ├── imac_store.py          # iMac-Store.it
 │   └── refurbed.py            # refurbed.it
 ├── filters/filters.py         # Engine filtri componibili
 ├── notifications/telegram.py  # Notifiche Telegram
