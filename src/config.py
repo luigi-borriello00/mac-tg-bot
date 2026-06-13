@@ -12,10 +12,20 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 SUPPORTED_CHIPS = {
-    "M1", "M1 Pro", "M1 Max", "M1 Ultra",
-    "M2", "M2 Pro", "M2 Max", "M2 Ultra",
-    "M3", "M3 Pro", "M3 Max",
-    "M4", "M4 Pro", "M4 Max",
+    # "M1",
+    "M1 Pro",
+    "M1 Max", 
+    "M1 Ultra",
+    # "M2", 
+    "M2 Pro", 
+    "M2 Max", 
+    "M2 Ultra",
+    # "M3", 
+    "M3 Pro", 
+    "M3 Max",
+    "M4", 
+    "M4 Pro", 
+    "M4 Max",
 }
 
 REQUEST_TIMEOUT_SECONDS = 30
@@ -51,8 +61,8 @@ USER_AGENT_POOL = (
 
 @dataclass
 class FilterConfig:
-    min_ram_gb: int = 0
-    min_storage_gb: int = 0
+    min_ram_gb: int = 24
+    min_storage_gb: int = 512
     max_price: float = 0.0
     categories: set[str] = field(default_factory=set)
     conditions: set[str] = field(default_factory=set)
