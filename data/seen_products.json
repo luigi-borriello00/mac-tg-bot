@@ -9,11 +9,11 @@
       "storage_gb": 1024,
       "price": 1409.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g15z3t/a/refurbished-13-inch-macbook-air-apple-m2-chip-with-8%E2%80%91core-cpu-and-10%E2%80%91core-gpu-starlight?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g15z3t/a/refurbished-13-inch-macbook-air-apple-m2-chip-with-8%E2%80%91core-cpu-and-10%E2%80%91core-gpu-starlight?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:14:56.232714+00:00"
+      "scraped_at": "2026-08-13T19:04:25.551080+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "a5853bfcd3b6b0ba": {
     "product": {
@@ -25,11 +25,11 @@
       "storage_gb": 1024,
       "price": 1409.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1613t/a/refurbished-13-inch-macbook-air-apple-m2-chip-with-8%E2%80%91core-cpu-and-10%E2%80%91core-gpu-midnight?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1613t/a/refurbished-13-inch-macbook-air-apple-m2-chip-with-8%E2%80%91core-cpu-and-10%E2%80%91core-gpu-midnight?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:14:59.014326+00:00"
+      "scraped_at": "2026-08-13T19:04:28.238405+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "4c59f662df536f68": {
     "product": {
@@ -41,11 +41,11 @@
       "storage_gb": 2048,
       "price": 2069.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g15z7t/a/refurbished-13-inch-macbook-air-apple-m2-chip-with-8%E2%80%91core-cpu-and-10%E2%80%91core-gpu-starlight?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g15z7t/a/refurbished-13-inch-macbook-air-apple-m2-chip-with-8%E2%80%91core-cpu-and-10%E2%80%91core-gpu-starlight?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:01.491760+00:00"
+      "scraped_at": "2026-08-13T19:04:30.647119+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "cb4ec7550e17b9fe": {
     "product": {
@@ -57,11 +57,11 @@
       "storage_gb": 2048,
       "price": 2069.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1617t/a/refurbished-13-inch-macbook-air-apple-m2-chip-with-8%E2%80%91core-cpu-and-10%E2%80%91core-gpu-midnight?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1617t/a/refurbished-13-inch-macbook-air-apple-m2-chip-with-8%E2%80%91core-cpu-and-10%E2%80%91core-gpu-midnight?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:04.282089+00:00"
+      "scraped_at": "2026-08-13T19:04:33.235707+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "1fe8a8b860a4e380": {
     "product": {
@@ -73,11 +73,11 @@
       "storage_gb": 512,
       "price": 2129.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/fx2e3t/a/MacBook-Pro-14-ricondizionato-con-chip-Apple-M4-Pro-CPU-12%E2%80%91core-e-GPU-16%E2%80%91core-Argento?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/fx2e3t/a/MacBook-Pro-14-ricondizionato-con-chip-Apple-M4-Pro-CPU-12%E2%80%91core-e-GPU-16%E2%80%91core-Argento?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:06.802481+00:00"
+      "scraped_at": "2026-08-13T19:04:35.755747+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "a50cd722e5a4ad26": {
     "product": {
@@ -89,11 +89,11 @@
       "storage_gb": 2048,
       "price": 2149.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1c90t/a/macbook-pro-14%22-ricondizionato-con-chip-apple-m3-cpu-8%E2%80%91core-e-gpu-10%E2%80%91core-grigio-siderale?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1c90t/a/macbook-pro-14%22-ricondizionato-con-chip-apple-m3-cpu-8%E2%80%91core-e-gpu-10%E2%80%91core-grigio-siderale?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:09.145909+00:00"
+      "scraped_at": "2026-08-13T19:04:38.287944+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "684848029fde36c4": {
     "product": {
@@ -105,11 +105,11 @@
       "storage_gb": 2048,
       "price": 2249.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1h94t/a/MacBook-Air-13-ricondizionato-con-chip-Apple-M4-CPU-10%E2%80%91core-e-GPU-10%E2%80%91core-Celeste?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1h94t/a/MacBook-Air-13-ricondizionato-con-chip-Apple-M4-CPU-10%E2%80%91core-e-GPU-10%E2%80%91core-Celeste?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:11.877706+00:00"
+      "scraped_at": "2026-08-13T19:04:40.895901+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "89d7643cf255215a": {
     "product": {
@@ -121,11 +121,11 @@
       "storage_gb": 2048,
       "price": 2329.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1c92t/a/macbook-pro-14%22-ricondizionato-con-chip-apple-m3-cpu-8%E2%80%91core-e-gpu-10%E2%80%91core-grigio-siderale?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1c92t/a/macbook-pro-14%22-ricondizionato-con-chip-apple-m3-cpu-8%E2%80%91core-e-gpu-10%E2%80%91core-grigio-siderale?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:14.560490+00:00"
+      "scraped_at": "2026-08-13T19:04:43.320064+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "d6dd5d71dbc9486e": {
     "product": {
@@ -137,11 +137,11 @@
       "storage_gb": 2048,
       "price": 2519.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1c94t/a/macbook-pro-14%22-ricondizionato-con-chip-apple-m3-cpu-8%E2%80%91core-e-gpu-10%E2%80%91core-grigio-siderale?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1c94t/a/macbook-pro-14%22-ricondizionato-con-chip-apple-m3-cpu-8%E2%80%91core-e-gpu-10%E2%80%91core-grigio-siderale?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:17.235486+00:00"
+      "scraped_at": "2026-08-13T19:04:45.717046+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "8a966debd69d881e": {
     "product": {
@@ -153,11 +153,11 @@
       "storage_gb": 512,
       "price": 2579.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/fx2t3t/a/MacBook-Pro-16-ricondizionato-con-chip-Apple-M4-Pro-CPU-14%E2%80%91core-e-GPU-20%E2%80%91core-Argento?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/fx2t3t/a/MacBook-Pro-16-ricondizionato-con-chip-Apple-M4-Pro-CPU-14%E2%80%91core-e-GPU-20%E2%80%91core-Argento?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:19.928912+00:00"
+      "scraped_at": "2026-08-13T19:04:48.395460+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "2c84b3c5a45fce86": {
     "product": {
@@ -169,11 +169,11 @@
       "storage_gb": 1024,
       "price": 2609.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1af0t/a/macbook-pro-16-ricondizionato-con-chip-apple-m3-pro-cpu-12%E2%80%91core-e-gpu-18%E2%80%91core-nero-siderale?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1af0t/a/macbook-pro-16-ricondizionato-con-chip-apple-m3-pro-cpu-12%E2%80%91core-e-gpu-18%E2%80%91core-nero-siderale?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:22.298593+00:00"
+      "scraped_at": "2026-08-13T19:04:51.217079+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "c881495e96a9c9c8": {
     "product": {
@@ -185,11 +185,11 @@
       "storage_gb": 2048,
       "price": 2839.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1av0t/a/macbook-pro%2014-pollici-ricondizionato-con-chip-apple-m3-pro-cpu-12-core-e-gpu-18-core-nero-siderale?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1av0t/a/macbook-pro%2014-pollici-ricondizionato-con-chip-apple-m3-pro-cpu-12-core-e-gpu-18-core-nero-siderale?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:24.827650+00:00"
+      "scraped_at": "2026-08-13T19:04:53.967723+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "e694aca916c3c6b9": {
     "product": {
@@ -201,11 +201,11 @@
       "storage_gb": 1024,
       "price": 3549.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/fx2g3t/a/MacBook-Pro-14-ricondizionato-con-chip-Apple-M4-Max-CPU-14%E2%80%91core-e-GPU-32%E2%80%91core-Argento?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/fx2g3t/a/MacBook-Pro-14-ricondizionato-con-chip-Apple-M4-Max-CPU-14%E2%80%91core-e-GPU-32%E2%80%91core-Argento?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:27.380212+00:00"
+      "scraped_at": "2026-08-13T19:04:56.803475+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "9392186fdeb84b04": {
     "product": {
@@ -217,11 +217,11 @@
       "storage_gb": 2048,
       "price": 3789.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1ff9t/a/MacBook-Pro-14-ricondizionato-con-chip-Apple-M4-Pro-CPU-14%E2%80%91core-e-GPU-20%E2%80%91core-display-con-nanotexture-Nero-siderale?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1ff9t/a/MacBook-Pro-14-ricondizionato-con-chip-Apple-M4-Pro-CPU-14%E2%80%91core-e-GPU-20%E2%80%91core-display-con-nanotexture-Nero-siderale?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:30.012644+00:00"
+      "scraped_at": "2026-08-13T19:04:59.654010+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "d21e7f965896d4d5": {
     "product": {
@@ -233,11 +233,11 @@
       "storage_gb": 1024,
       "price": 3819.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/fx303t/a/MacBook-Pro-16-ricondizionato-con-chip-Apple-M4-Max-CPU-14%E2%80%91core-e-GPU-32%E2%80%91core-Nero-siderale?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/fx303t/a/MacBook-Pro-16-ricondizionato-con-chip-Apple-M4-Max-CPU-14%E2%80%91core-e-GPU-32%E2%80%91core-Nero-siderale?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:32.517642+00:00"
+      "scraped_at": "2026-08-13T19:05:02.504063+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "98ae2bdb1fe3d34b": {
     "product": {
@@ -249,11 +249,11 @@
       "storage_gb": 2048,
       "price": 3969.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1az0t/a/macbook-pro-14-pollici-ricondizionato-con-chip-apple-m3-max-con-cpu-14%E2%80%91core-e-gpu-30%E2%80%91core-argento?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1az0t/a/macbook-pro-14-pollici-ricondizionato-con-chip-apple-m3-max-con-cpu-14%E2%80%91core-e-gpu-30%E2%80%91core-argento?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:35.214522+00:00"
+      "scraped_at": "2026-08-13T19:05:04.988030+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "e1b84650d626e9b6": {
     "product": {
@@ -265,11 +265,11 @@
       "storage_gb": 8192,
       "price": 7519.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1fdnt/a/MacBook-Pro-14-ricondizionato-con-chip-Apple-M4-Max-CPU-16%E2%80%91core-e-GPU-40%E2%80%91core-display-con-nanotexture-Argento?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1fdnt/a/MacBook-Pro-14-ricondizionato-con-chip-Apple-M4-Max-CPU-16%E2%80%91core-e-GPU-40%E2%80%91core-display-con-nanotexture-Argento?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:38.036315+00:00"
+      "scraped_at": "2026-08-13T19:05:07.748136+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "849eeaf6584da014": {
     "product": {
@@ -281,11 +281,11 @@
       "storage_gb": 8192,
       "price": 9199.0,
       "currency": "EUR",
-      "url": "https://www.apple.com/it/shop/product/g1azit/a/macbook-pro-14-pollici-ricondizionato-con-chip-apple-m3-max-con-cpu-16%E2%80%91core-e-gpu-40%E2%80%91core-argento?fnode=3fc476a98c662de74d41e4c19c9fe0626f6e99369372ea1fbe81928a6380b9641f128c1a329af184513633a09d450f06835d05d7b401fa93e0a8411d1cbf5beb32f422760b51e8cebcb8960881ea8276",
+      "url": "https://www.apple.com/it/shop/product/g1azit/a/macbook-pro-14-pollici-ricondizionato-con-chip-apple-m3-max-con-cpu-16%E2%80%91core-e-gpu-40%E2%80%91core-argento?fnode=8436806771067c821727af72b33903ba222e7ecb093b4631cc648b623051b589c07b4d1b54eb98a5fb6847047900ca029d3560b8bc8dca21e5f70670308f4c3b16a750785cf5aa20c863f6261ac7f274",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:40.490418+00:00"
+      "scraped_at": "2026-08-13T19:05:10.589641+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "000fd4f2673ee65c": {
     "product": {
@@ -299,9 +299,9 @@
       "currency": "EUR",
       "url": "https://www.refurbed.it/p/apple-macbook-air-m1-2020/",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:50.413753+00:00"
+      "scraped_at": "2026-08-13T19:05:20.026907+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "61592a1ce943796b": {
     "product": {
@@ -311,13 +311,13 @@
       "chip": "M2",
       "ram_gb": 8,
       "storage_gb": 256,
-      "price": 836.99,
+      "price": 859.99,
       "currency": "EUR",
       "url": "https://www.refurbed.it/p/apple-macbook-air-m2-2022/",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:50.413782+00:00"
+      "scraped_at": "2026-08-13T19:05:20.026940+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "6614c9b307e55340": {
     "product": {
@@ -327,13 +327,13 @@
       "chip": "M1",
       "ram_gb": 16,
       "storage_gb": 512,
-      "price": 820.99,
+      "price": 883.99,
       "currency": "EUR",
       "url": "https://www.refurbed.it/p/apple-macbook-pro-2021-m1-14/",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:50.413800+00:00"
+      "scraped_at": "2026-08-13T19:05:20.026958+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "1e8c9ecf472973a8": {
     "product": {
@@ -341,15 +341,15 @@
       "category": "air",
       "title": "Apple MacBook Air 2024 | 15.3\" | M3",
       "chip": "M3",
-      "ram_gb": 24,
+      "ram_gb": 8,
       "storage_gb": 512,
-      "price": 1159.0,
+      "price": 1266.99,
       "currency": "EUR",
       "url": "https://www.refurbed.it/p/apple-macbook-air-m3-2024-15/",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:50.413814+00:00"
+      "scraped_at": "2026-08-13T19:05:20.026973+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "c1c3a8021e73689c": {
     "product": {
@@ -359,13 +359,13 @@
       "chip": "M1",
       "ram_gb": 16,
       "storage_gb": 512,
-      "price": 913.99,
+      "price": 1005.99,
       "currency": "EUR",
       "url": "https://www.refurbed.it/p/apple-macbook-pro-2021-m1-16-2/",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:50.413827+00:00"
+      "scraped_at": "2026-08-13T19:05:20.026986+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "e5c5d0d19aec1c3f": {
     "product": {
@@ -375,13 +375,13 @@
       "chip": "M4",
       "ram_gb": 16,
       "storage_gb": 1024,
-      "price": 1663.99,
+      "price": 1655.99,
       "currency": "EUR",
       "url": "https://www.refurbed.it/p/apple-macbook-pro-2024-m4-14/",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:50.413840+00:00"
+      "scraped_at": "2026-08-13T19:05:20.027000+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "dbe2abb980e38ee9": {
     "product": {
@@ -391,13 +391,13 @@
       "chip": "M2",
       "ram_gb": 16,
       "storage_gb": 512,
-      "price": 1199.99,
+      "price": 1114.99,
       "currency": "EUR",
       "url": "https://www.refurbed.it/p/apple-macbook-pro-2023-m2-14/",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:50.413877+00:00"
+      "scraped_at": "2026-08-13T19:05:20.027012+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "78a60a7460b8e8b1": {
     "product": {
@@ -407,13 +407,13 @@
       "chip": "M1",
       "ram_gb": 8,
       "storage_gb": 256,
-      "price": 588.99,
+      "price": 545.02,
       "currency": "EUR",
       "url": "https://www.refurbed.it/p/apple-macbook-pro-2020-m1/",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:50.413889+00:00"
+      "scraped_at": "2026-08-13T19:05:20.027024+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "82869e3d35002852": {
     "product": {
@@ -427,9 +427,9 @@
       "currency": "EUR",
       "url": "https://www.refurbed.it/p/apple-macbook-pro-2023-m2-16-2/",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:50.413901+00:00"
+      "scraped_at": "2026-08-13T19:05:20.027036+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "5210fe114c3b3cc1": {
     "product": {
@@ -439,13 +439,13 @@
       "chip": "M4",
       "ram_gb": 24,
       "storage_gb": 512,
-      "price": 2451.99,
+      "price": 2248.99,
       "currency": "EUR",
       "url": "https://www.refurbed.it/p/apple-macbook-pro-2024-m4-16/",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:50.413915+00:00"
+      "scraped_at": "2026-08-13T19:05:20.027051+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   },
   "d961e5d3d458982b": {
     "product": {
@@ -459,8 +459,8 @@
       "currency": "EUR",
       "url": "https://www.refurbed.it/p/apple-macbook-air-m4-2025/",
       "condition": "refurbished",
-      "scraped_at": "2026-08-13T13:15:50.413928+00:00"
+      "scraped_at": "2026-08-13T19:05:20.027066+00:00"
     },
-    "last_seen": "2026-08-13T13:15:50.995402+00:00"
+    "last_seen": "2026-08-13T19:05:20.642711+00:00"
   }
 }
